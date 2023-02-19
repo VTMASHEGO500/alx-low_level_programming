@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - print the size of data types on the computer
  *
  * Return: 0
 */
+
 int main(void)
 {
 	char a;
