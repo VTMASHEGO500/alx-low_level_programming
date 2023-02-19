@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print the size of data types on the computer
- * data types
+ *
  * Return: 0
 */
 int main(void)
