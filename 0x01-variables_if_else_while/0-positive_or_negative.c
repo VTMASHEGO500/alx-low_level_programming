@@ -4,9 +4,11 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Print if the number is positive or negative
+ * main - print whether the number is positive or negative
  *
+ * Return: 0
 */
+
 int main(void)
 {
 	int n;
