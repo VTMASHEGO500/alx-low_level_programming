@@ -1,13 +1,12 @@
 #include "main.h"
-/**
- * main - print _putchar
- * put char c
- * Return: 0
-*/
 
+/**
+ * main - print putchar
+ * is written by vasco
+ * Return: 0
+ */
 int main(void)
 {
-	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -15,6 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	putchar('\n');
+	_putchar('\n');
 		return (0);
 }
