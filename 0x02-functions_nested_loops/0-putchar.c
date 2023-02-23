@@ -1,5 +1,5 @@
 /**
- * main - print putchar
+ * main - print _putchar
  * is written by vasco
  * Return: 0
  */
