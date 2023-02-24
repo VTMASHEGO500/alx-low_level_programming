@@ -2,17 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *_isdigit - check if number is 0 - 9
+ *@c: check char
+ * Return: 0 or 1
  */
-int main(void)
+int _isdigit(int c)
 {
-	char c;
-
-	c = 'A';
-	printf("%c: %d/n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d/n", c, _isupper(C));
-	return (0);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
