@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_line - draw a straight line
- *@n: number of time char
+ *@n: number of time character should be printed
  */
 void print_line(void)
 {
