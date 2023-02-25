@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- *print_square - print a square
+ *print_square - print a square,followed by the new line
  *
  *@size: size of the square
  */
 void print_square(int size)
 {
-	if (n <= 0)
+	if (size <= 0)
 	{
-		_putchar('\n')
+		_putchar('\n');
 	} else
 	{
 		int i, j;
@@ -18,7 +18,7 @@ void print_square(int size)
 		{
 			for (j = 0; j < size; j++)
 			{
-				putchar('#');
+				_putchar('#');
 			}
 			_putchar('\n');
 		}
