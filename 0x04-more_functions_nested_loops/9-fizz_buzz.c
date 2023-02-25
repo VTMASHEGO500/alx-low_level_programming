@@ -1,10 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 /**
- *main - print the number from 1 to 100
- *
- *
- * Return: 0
+ *main - print the number from 1 to 100 followed by new line
+ *but multiply three print Fuzz instead of the number
+ *and multiply of five prints Buzz
+ * Return: always 0 (success)
  */
 int main(void)
 {
