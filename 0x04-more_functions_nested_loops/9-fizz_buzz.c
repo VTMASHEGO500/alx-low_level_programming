@@ -23,7 +23,7 @@ int main(void)
 			printf(" FuzzBuzz");
 		} else if (n == 1)
 		{
-			printf("%d", n);
+			printf(" %d", n);
 		} else
 		{
 			printf(" %d", n);
