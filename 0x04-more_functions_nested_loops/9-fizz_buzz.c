@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  *main - print the number from 1 to 100
  *
@@ -10,17 +10,17 @@ int main(void)
 {
 	int n;
 
-	for (n =1; n <= 100; n++)
+	for (n = 1; n <= 100; n++)
 	{
-		if (n % 3 == 0 && n % 5 ! =0)
+		if (n % 3 == 0 && n % 5 != 0)
 		{
-			prinft(" fuzz")
-		} else if (n % 5 == 0 && i % 3 ! = 0)
+			printf(" Fuzz");
+		} else if (n % 5 == 0 && n % 3 != 0)
 		{
-			printf(" buzz")
-		} else if (n % 3 == 0 && ! % 5 == 0)
+			printf(" Buzz");
+		} else if (n % 3 == 0 && n % 5 == 0)
 		{
-			printf(" fuzzbuzz");
+			printf(" FuzzBuzz");
 		} else if (n == 1)
 		{
 			printf("%d", n);
@@ -29,7 +29,7 @@ int main(void)
 			printf(" %d", n);
 		}
 	}
-	printf("\n")
+	printf("\n");
 
-	return: (0);
-
+	return(0);
+}
