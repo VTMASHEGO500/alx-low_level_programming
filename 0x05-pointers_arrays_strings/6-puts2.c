@@ -8,17 +8,17 @@
 void puts2(char *str)
 {
 	int longi = 0;
-	int a = 0;
-	char *b = str;
+	int t = 0;
+	char *y = str;
 	int o;
 
-	while (*b != '\0')
+	while (*y != '\0')
 	{
-		b++;
+		y++;
 		longi++;
 	}
-	a = longi = 1;
-	for (o = 0 ; o <= a ; o++)
+	t = longi - 1;
+	for (o = 0 ; o <= t ; o++)
 	{
 		if (o % 2 == 0)
 	{
