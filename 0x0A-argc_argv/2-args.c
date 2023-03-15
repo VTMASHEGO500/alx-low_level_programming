@@ -18,8 +18,4 @@ int main(int argc, char *argv[])
 		/*WHILE - Print each arguments*/
 		while (count < argc)
 		{
-			printf("%s\n", argv[count]);
-		}
-		return (0);
-	}
-}
+		printf("%s\n", argv[count]);
